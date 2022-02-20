@@ -1,2 +1,3 @@
-# Bootcamp-Eduzz
-Projetos desenvolvidos no Bootcamp Eduzz Fullstack Developer #3
+# Bootcamp Eduzz
+
+Repositório para os projetos desenvolvidos no Bootcamp Eduzz Fullstack Developer #3
