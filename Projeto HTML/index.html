@@ -8,23 +8,270 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="/Projeto HTML/img/img-perfil.png" alt="foto avatar de Douglas" class="avatar">
-        <h1 id="title">Douglas Leal</h1>
+    <header class="container" id="header_container">
+        <div class="row navigation">
+            <div style="width: 40%;">
+                <h1 id="blog_title">DOUGLAS LEAL</h1>
+                <p id="blog_subtitle">/* Blog com Trabalhos e Projetos */</p>
+            </div>
+            <div style="width: 20%;">
+                <div><img src="https://avatars.githubusercontent.com/u/61319570?v=4" alt="foto avatar de Douglas" class="avatar avatar_header">
+                </div>
+            </div>
+            <div style="width: 40%; text-align: end;">
+                <ul class="social_icons">
+                    <li><a href="https://www.linkedin.com/in/douleal/" target="_blank">
+                        <span class="icons">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </span>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/arteiroon/" target="_blank">
+                        <span class="icons">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </span>
+                    </a></li>
+                    <li><a href="https://github.com/douleal" target="_blank">
+                        <span class="icons">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </span>
+                    </a></li>
+                    <li><a href="#">
+                        <span class="icons">
+                            <ion-icon name="logo-medium"></ion-icon>
+                        </span>
+                    </a></li>
+                </ul>
+            </div>
+
+        </div>
     </header>
-    <section>
-        <header><h2 class="subtitle">Postagens</h2></header>
-        <article class="post">
-            <header><h3 class="post-title">Título Postagem</h3></header>
-            <img src="/Projeto HTML/img/img-post.png" alt="editor de texto mostrando códigos html" class="post-image">
-            <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <a href="https://www.linkedin.com/in/douleal/" target="_blank">proident</a>, sunt in culpa qui officia deserunt mollit anim id est <a href="mailto:douglas@arteiroon.com.br" target="_blank">laborum</a>.</p>
-        </article>
+    <div class="container">
+        <div class="slide"></div>
+    </div>
+    <section class="container">
+        <div class="row">
+            <div class="column" id="post_container">
+                <article class="post">
+                    <img src="/Projeto HTML/img/post_html.png" alt="editor de texto mostrando códigos html" class="post-image">
+                    <header><h3 class="post-title"><a href="#">Projetos Linguagem de Marcação HTML5 e CSS3</a></h3></header>
+                    <div class="row author">
+                        <span>
+                            <img src="https://avatars.githubusercontent.com/u/61319570?v=4" alt="Foto autor do post" class="img_author">
+                        </span>
+                        <span>
+                            <a href="#" class="text_author">Douglas Leal</a>
+                            <a href="#" class="text_author">27 Fevereiro, 2022</a>
+                        </span>
+                    </div>
+                    <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <a href="https://www.linkedin.com/in/douleal/" target="_blank">proident</a>, sunt in culpa qui officia deserunt mollit anim id est <a href="mailto:douglas@arteiroon.com.br" target="_blank">laborum</a>.</p>
+                    <footer class="row">
+                        <div style="width: 40%;">
+                            <ul class="share_icons">
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-pinterest"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-discord"></ion-icon>
+                                    </span>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-post" style="width: 60%; justify-content: end;">
+                            <button class="btn">Saiba Mais</button>
+                        </div>
+                    </footer>
+                </article>
+                <article class="post">
+                    <img src="/Projeto HTML/img/post_js.png" alt="editor de texto mostrando códigos html" class="post-image">
+                    <header><h3 class="post-title"><a href="#">Projetos Linguagem de Programação Javascrip</a></h3></header>
+                    <div class="row author">
+                        <span>
+                            <img src="https://avatars.githubusercontent.com/u/61319570?v=4" alt="Foto autor do post" class="img_author">
+                        </span>
+                        <span>
+                            <a href="#" class="text_author">Douglas Leal</a>
+                            <a href="#" class="text_author">27 Fevereiro, 2022</a>
+                        </span>
+                    </div>
+                    <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <a href="https://www.linkedin.com/in/douleal/" target="_blank">proident</a>, sunt in culpa qui officia deserunt mollit anim id est <a href="mailto:douglas@arteiroon.com.br" target="_blank">laborum</a>.</p>
+                    <footer class="row">
+                        <div style="width: 40%;">
+                            <ul class="share_icons">
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-pinterest"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-discord"></ion-icon>
+                                    </span>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-post" style="width: 60%; justify-content: end;">
+                            <button class="btn">Saiba Mais</button>
+                        </div>
+                    </footer>
+                </article>
+                <article class="post">
+                    <img src="/Projeto HTML/img/post_nodejs.png" alt="editor de texto mostrando códigos html" class="post-image">
+                    <header><h3 class="post-title"><a href="#">Projetos com NODE.JS</a></h3></header>
+                    <div class="row author">
+                        <span>
+                            <img src="https://avatars.githubusercontent.com/u/61319570?v=4" alt="Foto autor do post" class="img_author">
+                        </span>
+                        <span>
+                            <a href="#" class="text_author">Douglas Leal</a>
+                            <a href="#" class="text_author">27 Fevereiro, 2022</a>
+                        </span>
+                    </div>
+                    <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <a href="https://www.linkedin.com/in/douleal/" target="_blank">proident</a>, sunt in culpa qui officia deserunt mollit anim id est <a href="mailto:douglas@arteiroon.com.br" target="_blank">laborum</a>.</p>
+                    <footer class="row">
+                        <div style="width: 40%;">
+                            <ul class="share_icons">
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-pinterest"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-discord"></ion-icon>
+                                    </span>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-post" style="width: 60%; justify-content: end;">
+                            <button class="btn">Saiba Mais</button>
+                        </div>
+                    </footer>
+                </article>
+                <article class="post">
+                    <img src="/Projeto HTML/img/post_reactijs.png" alt="editor de texto mostrando códigos html" class="post-image">
+                    <header><h3 class="post-title"><a href="#">Projetos com REACT.JS</a></h3></header>
+                    <div class="row author">
+                        <span>
+                            <img src="https://avatars.githubusercontent.com/u/61319570?v=4" alt="Foto autor do post" class="img_author">
+                        </span>
+                        <span>
+                            <a href="#" class="text_author">Douglas Leal</a>
+                            <a href="#" class="text_author">27 Fevereiro, 2022</a>
+                        </span>
+                    </div>
+                    <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <a href="https://www.linkedin.com/in/douleal/" target="_blank">proident</a>, sunt in culpa qui officia deserunt mollit anim id est <a href="mailto:douglas@arteiroon.com.br" target="_blank">laborum</a>.</p>
+                    <footer class="row">
+                        <div style="width: 40%;">
+                            <ul class="share_icons">
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-pinterest"></ion-icon>
+                                    </span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span class="icons">
+                                        <ion-icon name="logo-discord"></ion-icon>
+                                    </span>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-post" style="width: 60%; justify-content: end;">
+                            <button class="btn">Saiba Mais</button>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+            <div class="column" id="info_container">
+                <div>
+                    <header><h4 class="about">Sobre mim</h4></header>
+                    <img src="https://avatars.githubusercontent.com/u/61319570?v=4" alt="Foto avatar de Douglas" class="avatar">
+                    <p id="text_about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <footer><h4 class="footer_about"><a href="https://www.linkedin.com/in/douleal/" target="_blank">mais sobre mim</a></h4></footer>
+                </div>
+                <div class="box">
+                    <div class="contact">
+                        <header><h4>SIGA-ME</h4></header>
+                        <ul class="social_icons">
+                            <li><a href="https://www.linkedin.com/in/douleal/" target="_blank">
+                                <span class="icons">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </span>
+                            </a></li>
+                            <li><a href="https://www.instagram.com/arteiroon/" target="_blank">
+                                <span class="icons">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </span>
+                            </a></li>
+                            <li><a href="https://github.com/douleal" target="_blank">
+                                <span class="icons">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </span>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="icons">
+                                    <ion-icon name="logo-medium"></ion-icon>
+                                </span>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                        <header><h4>NEWSLETTER</h4></header>
+                        <p>Assine minha newsletter e receba notificações sobre novas postagens</p>
+                        <input type="email" name="email" id="email_news" placeholder="Email">
+                        <input id="btn_news" type="submit" value="inscrever-se">
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        <ul class="contacts-list">
-            <li><a href="https://www.linkedin.com/in/douleal/" target="_blank">Linkedin</a></li>
-            <li><a href="http://instagram.com/arteiroon" target="_blank">Instagram</a></li>
-        </ul>
+    <footer class="container" id="footer_container">
+        <p id="footer_copy">Copyright 2022 Douglas Leal, All Right Reserved</p>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
