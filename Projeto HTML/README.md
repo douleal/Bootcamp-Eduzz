@@ -6,7 +6,11 @@ No projeto foi utilizado os conceitos de semântica do HTML5, utilizando tags co
 
 Em CSS foi utilizado além dos conceitos fundamentais, efeitos (animações) em imagens utilizando TRANSITION e TRANSFORM para efeito de zoom nas imagens das postagens. 
 
-Segue baixo, um print do template:  
+ #
+
+Demonstração [Site Projeto](https://douleal.github.io/BlogTemplates/)
+
+ #
 
 ![print](img/print_template.jpeg)
 
